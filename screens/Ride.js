@@ -235,7 +235,7 @@ export default class RideScreen extends Component {
             onPress={this.handleTransaction}
           >
             <Text style={styles.buttonText}>
-              {bikeAssigned ? "Finalizar" : "Unlock"}
+              {bikeAssigned ? "Finalizar" : "Desbloquear"}
             </Text>
           </TouchableOpacity>
         </View>
